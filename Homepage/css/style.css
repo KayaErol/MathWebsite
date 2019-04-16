@@ -1,0 +1,68 @@
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  background-color: #595858;
+  color: white;
+}
+/* Global */
+  .container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+  }
+
+  header ul{
+    margin:0;
+    padding:0;
+  }
+
+  header{
+    background-color: #FFD54F;
+    padding-top: 30px;
+    min-height:70px;
+    border-bottom: white 2px solid;
+  }
+
+  header a{
+    color:black;
+    text-decoration: none;
+   /* text-transform: uppercase; */
+    font-size: 17px;
+  }
+
+  header li{
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+
+  header #branding{
+    float:left;
+  }
+
+  header #branding h1{
+    margin:0;
+  }
+
+  header nav{
+    float:right;
+    margin-top:10px;
+  }
+
+  header .highlight, header .current a{
+     color:black;
+     font-weight:bold;
+  }
+
+  header a:hover{
+    color:red;
+  }
+
+  /*Showcase*/
+  #showcase{
+    min-height: 400px;
+    background:url("../images/OSCAR.jpg")no-repeat 0;
+    text-align:center;
+  }
